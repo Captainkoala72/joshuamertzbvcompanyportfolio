@@ -1,0 +1,666 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Joshua Mertz · Bet on Me</title>
+    <meta name="description" content="Joshua Mertz: sports bettor since 21, AI builder and marketer since the Minecraft days. My application for BV's Sports Betting Marketing Associate role." />
+    <meta name="author" content="Joshua Mertz" />
+    <meta name="theme-color" content="#0a0e13" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Joshua Mertz · Bet on Me" />
+    <meta property="og:title" content="Joshua Mertz · Bet on Me" />
+    <meta property="og:description" content="Sports bettor since 21, AI builder and marketer. My application for BV's Sports Betting Marketing Associate role." />
+    <meta property="og:url" content="__SITE_URL__/" />
+    <meta property="og:image" content="__SITE_URL__/og.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Bet on me: Joshua Mertz's bet slip, every leg cashed" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Joshua Mertz · Bet on Me" />
+    <meta name="twitter:description" content="Sports bettor since 21, AI builder and marketer." />
+    <meta name="twitter:image" content="__SITE_URL__/og.jpg" />
+    <script>
+      document.documentElement.classList.remove('no-js');
+      document.documentElement.classList.add('js');
+    </script>
+    <script type="module" src="/src/main.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#why">Skip to content</a>
+
+    <div class="bg" aria-hidden="true">
+      <div class="bg__stripes"></div>
+      <div class="bg__glow bg__glow--1"></div>
+      <div class="bg__glow bg__glow--2"></div>
+    </div>
+    <div class="progress" aria-hidden="true"><span data-progress></span></div>
+
+    <header class="top" data-nav>
+      <a class="brand" href="#top" aria-label="Bet on Me, back to top">
+        <span class="brand__chip" aria-hidden="true">JM</span>
+        <span class="brand__name">Bet on <b>me</b></span>
+      </a>
+      <nav class="top__nav" aria-label="Sections">
+        <a href="#why">Why I bet</a>
+        <a href="#props">Props</a>
+        <a href="#parlay">The parlay</a>
+        <a href="#builds">Builds</a>
+        <a href="#lab">AI lab</a>
+        <a href="#markets">Markets</a>
+        <a href="#form">Form guide</a>
+      </nav>
+      <div class="top__right">
+        <span class="badge21" title="This site is about sports betting: 21+">21+</span>
+        <span class="avail"><i></i>100% available</span>
+        <button class="slip-btn" type="button" data-slip-open aria-haspopup="dialog">
+          <span class="slip-btn__label">Bet slip</span>
+          <span class="slip-btn__count" data-slip-count>0</span>
+        </button>
+        <button class="top__toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <div class="mmenu" id="mobile-menu" hidden>
+      <nav aria-label="Sections">
+        <a href="#why">Why I bet</a>
+        <a href="#props">Props</a>
+        <a href="#parlay">The parlay</a>
+        <a href="#builds">Builds</a>
+        <a href="#lab">AI lab</a>
+        <a href="#markets">Markets</a>
+        <a href="#form">Form guide</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="btn btn--green" href="mailto:joshuamertz716@gmail.com">joshuamertz716@gmail.com</a>
+    </div>
+
+    <main>
+      <!-- ================= HERO / FEATURED MARKET ================= -->
+      <section class="hero" id="top" aria-label="Introduction">
+        <div class="wrap hero__grid">
+          <div class="hero__copy">
+            <p class="hero__kicker" data-hero-in>
+              <span class="pill pill--green">BV · Sports Betting Marketing Associate</span>
+              <span class="pill">Remote · Part-time</span>
+            </p>
+            <h1 class="hero__title" data-hero-in>
+              <span class="hero__line">Bet on</span>
+              <span class="hero__line hero__line--green">me.</span>
+            </h1>
+            <p class="hero__name" data-hero-in>Joshua Mertz <span>Williamsville, NY · Graduating spring 2027</span></p>
+            <p class="hero__lead" data-hero-in>
+              I've bet on sports since I turned 21, I build AI-powered tools for fun, and I've been promoting things online since I was a kid. Sports betting is the industry I want to work in, and I'm <strong>100% available</strong>: about 20 hours a week, weekends included.
+            </p>
+            <div class="hero__ctas" data-hero-in>
+              <button class="btn btn--green" type="button" data-pick-id="join" data-pick="Joshua Mertz to join BV" data-odds="-1000" data-on-text="On your slip ✓">
+                <span class="btn__plus" aria-hidden="true">+</span> Add me to your slip
+              </button>
+              <a class="btn btn--ghost" href="#why">Why I bet</a>
+            </div>
+          </div>
+
+          <article class="fmarket" data-hero-in aria-label="Featured market">
+            <header class="fmarket__head">
+              <span class="fmarket__league">Featured · BV hiring · 2026–27</span>
+              <span class="tag-live"><span class="live-dot"></span>Live</span>
+            </header>
+            <div class="fmarket__who">
+              <img class="fmarket__avatar" src="/img/me/joshua-sm.webp" width="400" height="534" alt="Joshua Mertz" fetchpriority="high" />
+              <div>
+                <p class="fmarket__name">Joshua Mertz</p>
+                <p class="fmarket__market">To join BV as Marketing Associate</p>
+              </div>
+            </div>
+            <div class="fmarket__lines">
+              <button class="odds odds--lg" type="button" data-pick-id="join" data-pick="Joshua Mertz to join BV" data-odds="-1000">
+                <span>Joshua Mertz</span><b data-line="me">-1000</b>
+              </button>
+              <button class="odds odds--lg" type="button" disabled aria-label="The field, +700. Not available.">
+                <span>The field</span><b data-line="field">+700</b>
+              </button>
+            </div>
+            <p class="fmarket__move">
+              <span class="fmarket__arrow" data-move>▲ Sharp money on Joshua</span>
+              <span>Implied <b data-implied>90.9%</b></span>
+            </p>
+            <ul class="fmarket__boosts">
+              <li><span class="boost">Boost</span>Bettor since 21, bets in units</li>
+              <li><span class="boost">Boost</span>Uses AI like a coach, every day</li>
+              <li><span class="boost">Boost</span>100% available, weekends included</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="ticker" data-hero-in>
+          <p class="ticker__label"><span class="live-dot live-dot--white"></span>Live</p>
+          <div class="ticker__viewport"><div class="ticker__track" data-ticker></div></div>
+        </div>
+      </section>
+
+      <!-- ================= 01 WHY I BET ================= -->
+      <section class="section why" id="why">
+        <div class="wrap">
+          <header class="sec-head">
+            <p class="kicker"><span>01</span>The non-negotiable</p>
+            <h2 class="sec-title" data-split>Why I'm into <em>sports betting.</em></h2>
+            <p class="sec-sub" data-reveal>You said it's the first thing you read, so here's the real answer.</p>
+          </header>
+
+          <div class="why__grid">
+            <div class="why__story" data-reveal>
+              <p class="why__lead">I placed my first bets right around when I turned 21, and I haven't stopped since.</p>
+              <p>Football came first. Then basketball, then baseball and tennis, and now I'll bet pretty much any sport. I bet in units, and for years I've followed a few handicappers who've been very good to me. My go-to apps are DraftKings, Polymarket, Novig and Fliff.</p>
+              <p class="why__win"><span>Best win ever</span>Carlos Alcaraz's comeback against Jannik Sinner at Roland Garros.</p>
+              <p>Betting is also why I build. <strong>EdgeFinder</strong> (AI betting research) and <strong>The Wall</strong> (my multiview for watching every game at once) exist because I wanted better tools for my own sports nights.</p>
+              <p class="why__customer">I'm exactly who your clients are trying to reach: a bettor in his twenties with four apps on his phone, who tails cappers and bets in units.</p>
+            </div>
+
+            <aside class="profile" data-reveal aria-label="Bettor profile">
+              <header class="profile__head">
+                <img src="/img/me/joshua-sm.webp" width="400" height="534" alt="" loading="lazy" />
+                <div>
+                  <p class="profile__name">Joshua Mertz</p>
+                  <p class="profile__sub">Bettor profile</p>
+                </div>
+                <span class="profile__badge">21+ ✓</span>
+              </header>
+              <dl class="profile__stats">
+                <div><dt>Started</dt><dd>At 21</dd></div>
+                <div><dt>Staking</dt><dd>Units</dd></div>
+                <div><dt>Apps</dt><dd>DraftKings · Polymarket · Novig · Fliff</dd></div>
+                <div><dt>Tails</dt><dd>A few cappers, for years</dd></div>
+                <div><dt>Best win</dt><dd>Alcaraz over Sinner, Roland Garros</dd></div>
+                <div><dt>Fantasy</dt><dd>ESPN and Sleeper leagues</dd></div>
+              </dl>
+              <p class="profile__label">Sports I bet, in order</p>
+              <ol class="sportpath">
+                <li>Football</li><li>Basketball</li><li>Baseball</li><li>Tennis</li><li>Pretty much anything</li>
+              </ol>
+              <p class="profile__label">Rooting interests</p>
+              <ul class="teamchips">
+                <li class="is-main">Bills · die-hard</li><li>Knicks</li><li>Sabres</li><li>Yankees</li><li>Tennessee Vols</li><li>KBO, my soft spot</li>
+              </ul>
+              <p class="profile__fav">Favorite sport: <b>tennis</b> (Fonseca, Berrettini, Shelton, Tiafoe, Alcaraz)</p>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= 02 PROPS ================= -->
+      <section class="section props" id="props">
+        <div class="wrap">
+          <header class="sec-head">
+            <p class="kicker"><span>02</span>Player props</p>
+            <h2 class="sec-title" data-split>Joshua Mertz props. <em>Every line hit.</em></h2>
+            <p class="sec-sub" data-reveal>These markets are settled, so you can see the receipts. Tap an Over to add it to your slip.</p>
+          </header>
+
+          <div class="props__grid">
+            <article class="prop" data-reveal>
+              <header class="prop__head"><h3>Builds shipped with AI</h3><span class="hit">Hit ✓</span></header>
+              <div class="prop__lines">
+                <button class="odds" type="button" data-pick-id="p1" data-pick="Over 24.5 builds shipped with AI" data-odds="-150"><span>O 24.5</span><b>-150</b></button>
+                <button class="odds" type="button" disabled aria-label="Under 24.5, settled"><span>U 24.5</span><b>+120</b></button>
+              </div>
+              <p class="prop__result"><strong>Result: 25+</strong>Sites, betting tools, a Windows clip app and a full 3D game.</p>
+            </article>
+            <article class="prop" data-reveal>
+              <header class="prop__head"><h3>AI tools in my rotation</h3><span class="hit">Hit ✓</span></header>
+              <div class="prop__lines">
+                <button class="odds" type="button" data-pick-id="p2" data-pick="Over 19.5 AI tools in rotation" data-odds="-130"><span>O 19.5</span><b>-130</b></button>
+                <button class="odds" type="button" disabled aria-label="Under 19.5, settled"><span>U 19.5</span><b>+105</b></button>
+              </div>
+              <p class="prop__result"><strong>Result: 20+</strong>Code, copy, images, video, voice, music and 3D.</p>
+            </article>
+            <article class="prop" data-reveal>
+              <header class="prop__head"><h3>YouTube videos edited</h3><span class="hit">Hit ✓</span></header>
+              <div class="prop__lines">
+                <button class="odds" type="button" data-pick-id="p3" data-pick="Over 149.5 YouTube videos edited" data-odds="-200"><span>O 149.5</span><b>-200</b></button>
+                <button class="odds" type="button" disabled aria-label="Under 149.5, settled"><span>U 149.5</span><b>+160</b></button>
+              </div>
+              <p class="prop__result"><strong>Result: ~200</strong>My Minecraft channel, back before it was deleted.</p>
+            </article>
+            <article class="prop" data-reveal>
+              <header class="prop__head"><h3>Events promoted &amp; hosted</h3><span class="hit">Hit ✓</span></header>
+              <div class="prop__lines">
+                <button class="odds" type="button" data-pick-id="p4" data-pick="Over 49.5 events promoted and hosted" data-odds="-180"><span>O 49.5</span><b>-180</b></button>
+                <button class="odds" type="button" disabled aria-label="Under 49.5, settled"><span>U 49.5</span><b>+145</b></button>
+              </div>
+              <p class="prop__result"><strong>Result: 50+</strong>Minecraft UHC games for 40–80 players, each promoted on Reddit.</p>
+            </article>
+            <article class="prop" data-reveal>
+              <header class="prop__head"><h3>Years making things online</h3><span class="hit">Hit ✓</span></header>
+              <div class="prop__lines">
+                <button class="odds" type="button" data-pick-id="p5" data-pick="Over 14.5 years making things online" data-odds="-250"><span>O 14.5</span><b>-250</b></button>
+                <button class="odds" type="button" disabled aria-label="Under 14.5, settled"><span>U 14.5</span><b>+190</b></button>
+              </div>
+              <p class="prop__result"><strong>Result: 15</strong>Since my first YouTube upload in 2011.</p>
+            </article>
+            <article class="prop" data-reveal>
+              <header class="prop__head"><h3>Game commits in 5 weeks</h3><span class="hit">Hit ✓</span></header>
+              <div class="prop__lines">
+                <button class="odds" type="button" data-pick-id="p6" data-pick="Over 149.5 game commits in 5 weeks" data-odds="+110"><span>O 149.5</span><b>+110</b></button>
+                <button class="odds" type="button" disabled aria-label="Under 149.5, settled"><span>U 149.5</span><b>-140</b></button>
+              </div>
+              <p class="prop__result"><strong>Result: 156</strong>DeuceTennis, built with an AI dev team.</p>
+            </article>
+            <article class="prop" data-reveal>
+              <header class="prop__head"><h3>Pages written in school</h3><span class="hit">Hit ✓</span></header>
+              <div class="prop__lines">
+                <button class="odds" type="button" data-pick-id="p7" data-pick="Over 999.5 pages written" data-odds="-120"><span>O 999.5</span><b>-120</b></button>
+                <button class="odds" type="button" disabled aria-label="Under 999.5, settled"><span>U 999.5</span><b>-110</b></button>
+              </div>
+              <p class="prop__result"><strong>Result: 1,000+</strong>Plus blog posts for my own sites, ECC and Medaille.</p>
+            </article>
+            <article class="prop prop--lock" data-reveal>
+              <header class="prop__head"><h3>Hours a week available</h3><span class="hit">Lock ✓</span></header>
+              <div class="prop__lines">
+                <button class="odds" type="button" data-pick-id="p8" data-pick="Over 19.5 hours a week available" data-odds="-1000"><span>O 19.5</span><b>-1000</b></button>
+                <button class="odds" type="button" disabled aria-label="Under 19.5, settled"><span>U 19.5</span><b>+700</b></button>
+              </div>
+              <p class="prop__result"><strong>Result: 20, weekends too</strong>100% available. Sports don't take days off.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= 03 PARLAY ================= -->
+      <section class="section parlay" id="parlay">
+        <div class="wrap">
+          <header class="sec-head">
+            <p class="kicker"><span>03</span>The parlay</p>
+            <h2 class="sec-title" data-split>The job, as a <em>5-leg parlay.</em></h2>
+            <p class="sec-sub" data-reveal>Your posting lists five areas the role covers. Here's my receipt for each leg.</p>
+          </header>
+
+          <article class="pslip" data-parlay>
+            <header class="pslip__head">
+              <div>
+                <p class="pslip__type">Parlay · 5 legs</p>
+                <p class="pslip__title">Joshua Mertz can do the job</p>
+              </div>
+              <div class="pslip__odds">
+                <span>Odds</span>
+                <b data-parlay-odds>+2170</b>
+              </div>
+              <span class="pslip__status" data-parlay-status>Pending</span>
+            </header>
+
+            <ol class="legs">
+              <li class="leg" data-leg data-odds="-150">
+                <div class="leg__mark" aria-hidden="true"><span>1</span></div>
+                <div class="leg__main">
+                  <p class="leg__area">Daily ops</p>
+                  <h3 class="leg__title">Keep the engine running</h3>
+                  <ul class="leg__receipts">
+                    <li>Promoted 50+ Minecraft UHC games on Reddit from 2014 to 2016, each one scheduled, posted and hosted live.</li>
+                    <li>Wrote the Discord announcements and monthly update newsletters for Medaille's esports club.</li>
+                    <li>Years of streaming on Twitch and uploading to YouTube, plus giveaways on stream.</li>
+                    <li>Three years of Discord moderation. Weekends? Sports don't take days off, and neither do I.</li>
+                  </ul>
+                </div>
+                <div class="leg__side"><b>-150</b><span class="leg__state" data-leg-state>Pending</span></div>
+              </li>
+              <li class="leg" data-leg data-odds="-130">
+                <div class="leg__mark" aria-hidden="true"><span>2</span></div>
+                <div class="leg__main">
+                  <p class="leg__area">Creative</p>
+                  <h3 class="leg__title">Build the ads</h3>
+                  <ul class="leg__receipts">
+                    <li>10 years in Paint.NET, plus Photoshop.</li>
+                    <li>9 years of video editing (Sony Vegas Pro, Camtasia, OpenShot, Shotcut) and 2 in DaVinci Resolve.</li>
+                    <li>AI images, video, voice and music: ImageGen, Nano Banana, Google Flow and ElevenLabs.</li>
+                    <li>Three AI video tests in the lab below, plus ESPN-style AI infographics in my fantasy sites.</li>
+                  </ul>
+                </div>
+                <div class="leg__side"><b>-130</b><span class="leg__state" data-leg-state>Pending</span></div>
+              </li>
+              <li class="leg" data-leg data-odds="+110">
+                <div class="leg__mark" aria-hidden="true"><span>3</span></div>
+                <div class="leg__main">
+                  <p class="leg__area">Email</p>
+                  <h3 class="leg__title">Run the campaigns</h3>
+                  <ul class="leg__receipts">
+                    <li>Emailed the esports newsletters as Director of Esports at SUNY Erie (ECC).</li>
+                    <li>Sent monthly update newsletters to everyone in the Medaille esports club's Discord.</li>
+                    <li>Built an AI-written weekly recap for my fantasy league, The Goofy Gazette.</li>
+                  </ul>
+                </div>
+                <div class="leg__side"><b>+110</b><span class="leg__state" data-leg-state>Pending</span></div>
+              </li>
+              <li class="leg" data-leg data-odds="-120">
+                <div class="leg__mark" aria-hidden="true"><span>4</span></div>
+                <div class="leg__main">
+                  <p class="leg__area">SEO &amp; web</p>
+                  <h3 class="leg__title">Ship content &amp; pages</h3>
+                  <ul class="leg__receipts">
+                    <li>25+ sites and apps shipped with AI, including this one.</li>
+                    <li>Blog posts on my own sites and for ECC and Medaille.</li>
+                    <li>1,000+ pages of writing in school.</li>
+                  </ul>
+                </div>
+                <div class="leg__side"><b>-120</b><span class="leg__state" data-leg-state>Pending</span></div>
+              </li>
+              <li class="leg" data-leg data-odds="+100">
+                <div class="leg__mark" aria-hidden="true"><span>5</span></div>
+                <div class="leg__main">
+                  <p class="leg__area">Campaigns</p>
+                  <h3 class="leg__title">Launch &amp; measure</h3>
+                  <ul class="leg__receipts">
+                    <li>Ran small paid ads for my YouTube channel, Medaille's social media and CounterCapper on X.</li>
+                    <li>Launched CounterCapper, saw it wasn't getting traction and moved on.</li>
+                    <li>Built admin dashboards to track usage, settle bets and tune AI prompts (CounterCapper, Global Hoop League).</li>
+                  </ul>
+                </div>
+                <div class="leg__side"><b>+100</b><span class="leg__state" data-leg-state>Pending</span></div>
+              </li>
+            </ol>
+
+            <footer class="pslip__foot">
+              <p>To win: <strong>a marketer who's already been doing the job for fun</strong></p>
+              <button class="btn btn--green btn--sm" type="button" data-pick-id="parlay" data-pick="5-leg parlay: Joshua can do the job" data-odds="+2171" data-on-text="Parlay on your slip ✓">+ Add the parlay</button>
+              <span class="cashed" data-cashed aria-hidden="true">Cashed</span>
+            </footer>
+          </article>
+        </div>
+      </section>
+
+      <!-- ================= 04 BUILDS ================= -->
+      <section class="section builds" id="builds">
+        <div class="wrap">
+          <header class="sec-head">
+            <p class="kicker"><span>04</span>Builds</p>
+            <h2 class="sec-title" data-split>Your client list. <em>My side projects.</em></h2>
+            <p class="sec-sub" data-reveal>BV works with capper brands, prediction platforms, betting tools, sportsbooks and fantasy apps. I've built a version of almost every one, mostly for myself.</p>
+          </header>
+
+          <div class="board" data-board="betting"></div>
+
+          <div class="builds__sub">
+            <h3 class="builds__title" data-reveal>AI creative</h3>
+            <p data-reveal>Proof I can direct AI across code, art, voice and video, not only text.</p>
+          </div>
+          <div class="board board--creative" data-board="creative"></div>
+
+          <div class="builds__sub">
+            <h3 class="builds__title" data-reveal>Other builds</h3>
+            <p data-reveal>Smaller tools and experiments. Tap any of them for the details.</p>
+          </div>
+          <div class="mini" data-board="other"></div>
+          <noscript><p class="noscript">Turn on JavaScript to browse the builds.</p></noscript>
+        </div>
+      </section>
+
+      <!-- ================= 05 AI LAB ================= -->
+      <section class="section lab" id="lab">
+        <div class="wrap">
+          <header class="sec-head">
+            <p class="kicker"><span>05</span>AI lab</p>
+            <h2 class="sec-title" data-split>Practice <em>reps.</em></h2>
+            <p class="sec-sub" data-reveal>I'm teaching myself to make short AI videos from start to finish: research, script, AI illustrations, AI narration, music, captions and the edit. These three are test runs while I learn the format, not finished client work.</p>
+          </header>
+
+          <div class="lab__grid">
+            <article class="vcard vcard--tall" data-reveal>
+              <div class="vcard__media">
+                <video controls preload="none" playsinline width="540" height="960" poster="/video/bills-patriots-week4.webp" aria-label="Test 01: Bills vs. Patriots, Week 4 recap">
+                  <source src="/video/bills-patriots-week4.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div class="vcard__body">
+                <p class="vcard__meta"><span>Test 01</span><span>0:60 · Vertical</span></p>
+                <h3>Bills vs. Patriots, Week 4 recap</h3>
+                <p>AI illustrations, AI narration, Google Flow music and captions. Every fact was checked against the official NFL gamebook.</p>
+              </div>
+            </article>
+            <article class="vcard vcard--wide" data-reveal>
+              <div class="vcard__media">
+                <video controls preload="none" playsinline width="960" height="540" poster="/video/rafael-nadal.webp" aria-label="Test 02: Rafael Nadal, The King Who Kept Coming Back">
+                  <source src="/video/rafael-nadal.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div class="vcard__body">
+                <p class="vcard__meta"><span>Test 02</span><span>4:08 · Widescreen</span></p>
+                <h3>Rafael Nadal: The King Who Kept Coming Back</h3>
+                <p>ImageGen illustrations, ElevenLabs narration and music, researched from ATP and Roland-Garros sources.</p>
+              </div>
+            </article>
+            <article class="vcard vcard--tall" data-reveal>
+              <div class="vcard__media">
+                <video controls preload="none" playsinline width="486" height="864" poster="/video/hailee-steinfeld.webp" aria-label="Test 03: Hailee Steinfeld's career as a character-select screen">
+                  <source src="/video/hailee-steinfeld.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div class="vcard__body">
+                <p class="vcard__meta"><span>Test 03</span><span>3:04 · Vertical</span></p>
+                <h3>Hailee Steinfeld's career as a character-select screen</h3>
+                <p>ImageGen illustrations, ElevenLabs narration, motion graphics and captions.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= 06 AI STACK ================= -->
+      <section class="section stack" id="stack">
+        <div class="wrap">
+          <header class="sec-head">
+            <p class="kicker"><span>06</span>AI stack</p>
+            <h2 class="sec-title" data-split>AI is already <em>my everyday coach.</em></h2>
+            <p class="sec-sub" data-reveal>Your posting says AI does the heavy lifting and you direct it. That's how I already work: I write the brief, check the output and ship.</p>
+          </header>
+
+          <div class="stack__grid">
+            <div class="stack__table" data-reveal>
+              <div class="srow"><p class="srow__role">Build &amp; ship</p><ul class="srow__tools"><li>Claude Code</li><li>Codex</li><li>Google AI Studio</li></ul></div>
+              <div class="srow"><p class="srow__role">Write &amp; research</p><ul class="srow__tools"><li>Claude</li><li>GPT</li><li>Gemini</li><li>DeepSeek</li><li>Kimi</li><li>GLM</li><li>MiMo</li><li>Muse Spark</li></ul></div>
+              <div class="srow"><p class="srow__role">Images</p><ul class="srow__tools"><li>ImageGen</li><li>Nano Banana</li></ul></div>
+              <div class="srow"><p class="srow__role">Video</p><ul class="srow__tools"><li>Google Flow</li></ul></div>
+              <div class="srow"><p class="srow__role">Voice &amp; music</p><ul class="srow__tools"><li>ElevenLabs</li><li>Gemini TTS</li><li>MiniMax Music</li><li>Mureka</li><li>Stable Audio</li></ul></div>
+              <div class="srow"><p class="srow__role">3D</p><ul class="srow__tools"><li>Meshy</li><li>Blender</li></ul></div>
+            </div>
+            <ul class="stack__how" data-reveal>
+              <li><b>I direct, AI drafts.</b> The brief, the prompts and the final call are mine. I even built my own prompt tool (PromptForge) to get better output.</li>
+              <li><b>I check the work.</b> Every fact in my Bills recap was checked against the official NFL gamebook.</li>
+              <li><b>I figure things out on my own.</b> Almost every skill on this site came from building something with AI myself.</li>
+              <li><b>I move fast.</b> 156 commits in five weeks on DeuceTennis, while working and going to school.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= 07 LIVE MARKETS ================= -->
+      <section class="section markets" id="markets">
+        <div class="wrap">
+          <header class="sec-head">
+            <p class="kicker"><span>07</span>Live markets</p>
+            <h2 class="sec-title" data-split>What the market <em>says right now.</em></h2>
+            <p class="sec-sub" data-reveal>The busiest sports markets on Polymarket when you opened this page, converted to American odds. ★ marks one of my teams or players.</p>
+          </header>
+          <div class="mkts" data-markets aria-live="polite">
+            <p class="mkts__loading" data-markets-status>Loading the board…</p>
+          </div>
+          <p class="mkts__foot">Prices from Polymarket's public API. For fun, not betting advice. 21+.</p>
+        </div>
+      </section>
+
+      <!-- ================= 08 FORM GUIDE ================= -->
+      <section class="section form" id="form">
+        <div class="wrap">
+          <header class="sec-head">
+            <p class="kicker"><span>08</span>Form guide</p>
+            <h2 class="sec-title" data-split>Recent form: <em>W W W W W.</em></h2>
+            <p class="sec-sub" data-reveal>Fifteen years of making things online, most recent first. Early career, hungry, and within a year of finishing school.</p>
+          </header>
+
+          <div class="form__grid">
+            <ol class="formlist">
+              <li class="fitem" data-reveal>
+                <span class="fitem__w">W</span>
+                <div><p class="fitem__when">Jan 2026 – Spring 2027</p><h3>Harrisburg University</h3><p>B.S. Esports Management (online). Graduating spring 2027.</p></div>
+              </li>
+              <li class="fitem" data-reveal>
+                <span class="fitem__w">W</span>
+                <div><p class="fitem__when">Fall 2023 – Fall 2025</p><h3>Director of Esports, SUNY Erie (ECC)</h3><p>30+ active players, emailed newsletters, Discord, events, rosters and scouting. Rocket League made deep playoff runs, and Valorant had runs of its own.</p></div>
+              </li>
+              <li class="fitem" data-reveal>
+                <span class="fitem__w">W</span>
+                <div><p class="fitem__when">Fall 2021 – Spring 2023</p><h3>Co-Club Leader, Medaille College Esports</h3><p>Events, a school-wide Minecraft server, teams in the ECAC collegiate league, promotion, monthly newsletters and small social ads.</p></div>
+              </li>
+              <li class="fitem" data-reveal>
+                <span class="fitem__w">W</span>
+                <div><p class="fitem__when">Spring 2021</p><h3>Assistant Coach, SUNY Erie (ECC)</h3><p>Every game on the roster, with a Valorant focus.</p></div>
+              </li>
+              <li class="fitem" data-reveal>
+                <span class="fitem__w">W</span>
+                <div><p class="fitem__when">2017, on and off</p><h3>Twitch streamer (xVechs)</h3><p>Counter-Strike and Valorant. 238 followers, plus some subs, donations and giveaways.</p></div>
+              </li>
+              <li class="fitem" data-reveal>
+                <span class="fitem__w">W</span>
+                <div><p class="fitem__when">2014 – 2016</p><h3>UHC host &amp; promoter (xVex)</h3><p>50+ Minecraft UHC games for 40–80 players each, every one promoted on Reddit. My first marketing job, before I knew it was one.</p></div>
+              </li>
+              <li class="fitem" data-reveal>
+                <span class="fitem__w">W</span>
+                <div><p class="fitem__when">2011 – 2016</p><h3>Minecraft YouTuber</h3><p>About 200 edited videos and roughly 300 subscribers.</p></div>
+              </li>
+            </ol>
+
+            <div class="form__side">
+              <article class="promo" data-reveal>
+                <p class="promo__label">My first promo campaigns</p>
+                <p class="promo__text">I announced my UHC games on Reddit, with each start time set for the region I wanted players from. A few of the originals:</p>
+                <div class="promo__strips">
+                  <button class="promo__strip" type="button" data-lb="uhc" data-src="/img/uhc/uhc17.webp" data-caption="Reddit posts for xVex's Games #34–36 on Apollo UHC, June 2016"><img src="/img/uhc/uhc17.webp" width="1232" height="237" alt="Reddit posts for xVex's Games #34–36 on Apollo UHC, June 2016" loading="lazy" /></button>
+                  <button class="promo__strip" type="button" data-lb="uhc" data-src="/img/uhc/uhc13.webp" data-caption="Reddit posts for xVex's Games #23–27, August 2015"><img src="/img/uhc/uhc13.webp" width="1004" height="361" alt="Reddit posts for xVex's Games #23–27, August 2015" loading="lazy" /></button>
+                  <button class="promo__strip" type="button" data-lb="uhc" data-src="/img/uhc/uhc1.webp" data-caption="Reddit posts for The Arcus Network UHC Games #1–4, December 2014"><img src="/img/uhc/uhc1.webp" width="1122" height="282" alt="Reddit posts for The Arcus Network UHC Games #1–4, December 2014" loading="lazy" /></button>
+                </div>
+                <button class="btn btn--ghost btn--sm" type="button" data-uhc-all>See all the posts</button>
+                <div class="vlinks" data-uhc-links hidden>
+                  <p class="promo__label">The original threads</p>
+                  <ul class="vlinks__list" data-uhc-list></ul>
+                </div>
+              </article>
+
+              <article class="jobs" data-reveal>
+                <p class="promo__label">Day jobs, all through school</p>
+                <ul class="jobs__list">
+                  <li><strong>DoorDash &amp; Uber Eats</strong><span>Delivery driver</span><time>Oct 2019 – Present</time></li>
+                  <li><strong>Jet's Pizza</strong><span>Delivery driver &amp; store associate</span><time>Apr 2025 – Apr 2026</time></li>
+                  <li><strong>Dash's Market</strong><span>Grocery delivery driver</span><time>May 2022 – Jan 2023</time></li>
+                  <li><strong>Buffalo Therapeutic Riding Center</strong><span>General maintenance</span><time>Summer 2019</time></li>
+                  <li><strong>DiCamillo's Bakery</strong><span>Store associate &amp; cashier</span><time>Oct 2017 – Jan 2019</time></li>
+                </ul>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= CONTACT ================= -->
+      <section class="contact" id="contact">
+        <div class="wrap contact__inner">
+          <p class="kicker kicker--center" data-reveal><span>✓</span>Place your bet</p>
+          <h2 class="contact__title" data-split>Lock it <em>in.</em></h2>
+          <p class="contact__sub" data-reveal>I'm 100% available (about 20 hours a week, weekends included) and ready to start. Email is the fastest way to reach me.</p>
+          <div class="contact__actions" data-reveal>
+            <a class="btn btn--green btn--lg" href="mailto:joshuamertz716@gmail.com">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6.5A1.5 1.5 0 0 1 4.5 5h15A1.5 1.5 0 0 1 21 6.5v11a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 17.5zm2 .9v9.6h14V7.4l-7 5.1z M6.2 7h11.6L12 11.2z" fill="currentColor" /></svg>
+              joshuamertz716@gmail.com
+            </a>
+            <button class="btn btn--ghost" type="button" data-copy="joshuamertz716@gmail.com">Copy email</button>
+            <button class="btn btn--ghost" type="button" data-slip-open>Open my bet slip</button>
+          </div>
+          <ul class="socials" data-reveal>
+            <li>
+              <a href="https://www.linkedin.com/in/joshua-mertz-967588237/" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.4c0-1.29-.02-2.95-1.8-2.95-1.8 0-2.07 1.4-2.07 2.86V21H9z" fill="currentColor" /></svg>
+                LinkedIn
+              </a>
+            </li>
+            <li>
+              <a href="https://x.com/xVechs" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.53 3h3.07l-6.7 7.66L21.8 21h-6.17l-4.83-6.32L5.27 21H2.2l7.17-8.2L1.8 3h6.33l4.36 5.77zm-1.08 16.17h1.7L7.06 4.74H5.24z" fill="currentColor" /></svg>
+                @xVechs
+              </a>
+            </li>
+            <li>
+              <a href="https://www.twitch.tv/xVechs" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.3 3 3 6.4V20h4.6v2.5h2.6l2.5-2.5h3.7L21 15.4V3zm15 11.6-2.9 2.9h-4.6l-2.5 2.5v-2.5H5.6V4.7h13.7zM15.9 7.6h-1.7v5h1.7zm-4.6 0H9.6v5h1.7z" fill="currentColor" /></svg>
+                Twitch
+              </a>
+            </li>
+          </ul>
+        </div>
+        <footer class="footer">
+          <p class="footer__rg"><span class="badge21">21+</span> Gambling problem? Call 1-800-GAMBLER. Please bet responsibly.</p>
+          <p>© 2026 Joshua Mertz · Built with Vite, GSAP and a lot of AI. Not affiliated with BV. Live prices from Polymarket's public API.</p>
+        </footer>
+      </section>
+    </main>
+
+    <!-- Bet slip -->
+    <dialog class="slip" data-slip aria-labelledby="slip-title">
+      <div class="slip__inner" data-lenis-prevent>
+        <header class="slip__head">
+          <h2 id="slip-title">Bet slip <span class="slip__count" data-slip-count>0</span></h2>
+          <button class="slip__close" type="button" data-close aria-label="Close bet slip">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" /></svg>
+          </button>
+        </header>
+        <p class="slip__empty" data-slip-empty>Your slip is empty. Tap any odds button on the page to add a pick.</p>
+        <ul class="slip__list" data-slip-list></ul>
+        <footer class="slip__foot">
+          <div class="slip__row"><span>Parlay odds</span><b data-slip-odds>None yet</b></div>
+          <div class="slip__row"><span>To win</span><b>A hungry, AI-native marketing associate</b></div>
+          <button class="btn btn--green btn--block" type="button" data-slip-place>Place bet · Email Joshua</button>
+          <button class="slip__clear" type="button" data-slip-clear>Clear slip</button>
+          <p class="slip__note">Placing this bet opens an email to joshuamertz716@gmail.com with your picks. No money involved.</p>
+        </footer>
+      </div>
+    </dialog>
+
+    <!-- Project details -->
+    <dialog class="modal" data-modal aria-labelledby="modal-title">
+      <div class="modal__inner" data-lenis-prevent>
+        <button class="modal__close" type="button" data-close aria-label="Close">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" /></svg>
+        </button>
+        <div class="modal__media">
+          <figure class="modal__stage">
+            <button class="modal__zoom" type="button" data-modal-zoom aria-label="Open this image full size"><img data-modal-img alt="" /></button>
+            <figcaption data-modal-cap></figcaption>
+          </figure>
+          <div class="modal__thumbs" data-modal-thumbs></div>
+        </div>
+        <div class="modal__info">
+          <p class="modal__meta" data-modal-meta></p>
+          <h3 class="modal__title" id="modal-title" data-modal-title></h3>
+          <p class="modal__tag" data-modal-tag></p>
+          <div class="modal__body" data-modal-body></div>
+          <div class="modal__nav">
+            <button class="btn btn--ghost btn--sm" type="button" data-modal-prev>← Previous</button>
+            <button class="btn btn--ghost btn--sm" type="button" data-modal-next>Next →</button>
+          </div>
+        </div>
+      </div>
+    </dialog>
+
+    <!-- Full-size image viewer -->
+    <dialog class="lightbox" data-lightbox aria-label="Image viewer">
+      <button class="lightbox__close" type="button" data-close aria-label="Close">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" /></svg>
+      </button>
+      <figure class="lightbox__fig">
+        <img data-lb-img alt="" />
+        <figcaption data-lb-cap></figcaption>
+      </figure>
+      <button class="lightbox__arrow lightbox__arrow--prev" type="button" data-lb-prev aria-label="Previous image">‹</button>
+      <button class="lightbox__arrow lightbox__arrow--next" type="button" data-lb-next aria-label="Next image">›</button>
+    </dialog>
+  </body>
+</html>
